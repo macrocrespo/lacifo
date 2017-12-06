@@ -1,0 +1,6 @@
+projectKey=lacifo
+serverUrl=http://localhost:9000
+serverVersion=6.5.0.27846
+dashboardUrl=http://localhost:9000/dashboard/index/lacifo
+ceTaskId=AV4Jd-lvso4eZ4rs2rni
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AV4Jd-lvso4eZ4rs2rni

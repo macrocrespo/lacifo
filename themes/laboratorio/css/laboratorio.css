@@ -1,0 +1,211 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31/01/2014, 16:26:07
+    Author     : Mario
+*/
+.panel-heading {
+    font-size: 15px;
+    border-bottom: 1px solid #eff2f7;
+}
+.inline-search label {
+    font-weight: normal;
+}
+.inline-search .form-control {
+    height: auto;
+    width: 200px;
+    margin-right: 10px;
+}
+#advanced_search {
+    padding: 15px 0px;
+    padding-top: 20px;
+    background: #f2f2f2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px #dddddd;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    display: none;
+}
+#advanced_search .form-group,
+#advanced_search .inline-search .form-control {
+    width: 100% !important;
+}
+#advanced_search .inline-search .form-control {
+    height: 30px;
+}
+#advanced_search .form-group {
+    margin-bottom: 15px;
+}
+#advanced_search .inline-search .btn {
+    height: 35px;
+    margin-top: 20px;
+}
+#advanced_search #close_advanced_search {
+    font-size: 30px;
+    margin-top: -23px;
+    position: absolute;
+    right: 37px;
+    z-index: 1;
+}
+.inline-search .btn {
+    margin-bottom: 0;
+}
+#advanced_search .form-control[readonly] {
+    background-color: #fff;
+    cursor: pointer;
+}
+.wsmall {
+    width: 70px !important;
+}
+.wxsmall {
+    width: 42px !important;
+}
+.profile-nav .nav-pills > li {
+    font-size: 110%;
+}
+
+@media (max-width: 650px) {
+    .progress-indicator > li {
+        font-size: 150%;
+    }
+    .progress-indicator > li t {
+        display: none;
+    }
+    
+    .nav-pills > li {
+        font-size: 150%;
+    }
+    .profile-nav .nav-pills > li {
+        font-size: 110%;
+    }
+    .nav-pills > li t {
+        display: none;
+    }
+    .nav-pills > li i {
+        margin-right: 0px;
+    }
+    .summary-list-item {
+        border: none !important;
+    }
+}
+
+h2.subtitle {
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: dotted 1px;
+    margin-bottom: 15px;
+}
+.information_block {
+    padding: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: solid 1px #EBEBEB;
+}
+.fsize075 {
+    font-size: 75% !important;
+}
+.fsize125 {
+    font-size: 125% !important;
+}
+.fsize150 {
+    font-size: 150% !important;
+}
+.fsize200 {
+    font-size: 200% !important;
+}
+.w25 {
+    width: 25% !important;
+}
+.w30 {
+    width: 30% !important;
+}
+.w33 {
+    width: 33% !important;
+}
+.w50 {
+    width: 50% !important;
+}
+.w100 {
+    width: 100% !important;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+.bg-light-grey {
+    background-color: #F7F7F7 !important;
+}
+.shadow-light-grey {
+    -webkit-box-shadow: 0 1px 1px #EBEBEB !important;
+    box-shadow: 0 1px 1px #EBEBEB !important;
+}
+
+.bg-light-green {
+    background-color: #dff0d8 !important;
+}
+.shadow-light-green {
+    -webkit-box-shadow: 0 1px 1px #d6e9c6 !important;
+    box-shadow: 0 1px 1px #d6e9c6 !important;
+}
+.round-left {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.round-right {
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#advanced_search .inline-search .input-group-btn .btn {
+    height: 30px;
+    margin-top: 0px;
+    width: auto;
+    padding: 5px;
+}
+#advanced_search .inline-search .input-group-btn .btn i {
+    font-size: 18px;
+}
+.only-mobile,
+.only-phone,
+.only-tablet,
+.inline-mobile {
+    display: none !important;
+}
+.fraccion_producto_listado {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    color: #fff;
+    display: inline-block;
+    padding: 0 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    float: right;
+}
+.txt_estado_series {
+    font-weight: normal !important;
+    padding: 0px !important;
+}
+.label-equipos {
+    width: 55px; 
+    text-align: right; 
+    margin-right: 5px;
+}
